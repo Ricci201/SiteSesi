@@ -191,6 +191,16 @@ body {
   background: #b91c1c;
 }
 
+/* Centraliza apenas o botão CTA "Fale Conosco" */
+.cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh; /* ocupa metade da altura da tela */
+  text-align: center;
+}
+
 /* Rodapé */
 .footer {
   background: #fff;
